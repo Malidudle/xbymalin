@@ -1,0 +1,100 @@
+/* CSS file */
+
+/* .navbar */
+.navbar {
+    background-color: rgb(26, 26, 26);
+    height: 100vh;
+    width: 20vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+  }
+  
+
+  .version {
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .spanId, .version {
+      display: none;
+    }
+    .header {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 30px;
+    }
+    .link {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .linkActive {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  .header {
+    margin-bottom: calc(5px * 1.5);
+    border-bottom: 1px solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .spanId {
+    padding-left: 0.75rem;
+  }
+
+  .footer {
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* .link */
+  .link {
+    outline: none;
+    box-shadow: 0 0 0 1px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: small;
+    color: #fff;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 10px;
+  }
+
+  /* .linkIcon */
+  .linkIcon {
+    color: #fff;
+    opacity: 1;
+  }
+
+  .linkActive {
+    outline: none;
+    box-shadow: 0 0 0 1px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 10px;
+    background-color: white;
+  }

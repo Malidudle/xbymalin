@@ -1,0 +1,32 @@
+/* TextInput.module.css */
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .input {
+    border: 1px solid #ccc;
+    color: white;
+    background: none;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+    min-height: 20vh; /* Set a minimum height for the textarea */
+    max-width: 30vw;
+    resize: none;
+  }
+  
+  .button {
+    border-color: white;
+  }
