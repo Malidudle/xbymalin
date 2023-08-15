@@ -12,6 +12,22 @@ yarn dev
 pnpm dev
 ```
 
+## .env file
+
+DATABASE_URL= *supabase Database Key pro tip use the pooled database option to avoid errors*
+
+NEXTAUTH_SECRET= *create a random number for this*
+
+GOOGLE_ID= *google auth id*
+GOOGLE_SECRET= *google secret id* 
+
+URL="http://localhost:3000" *or your url*
+
+
+
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
